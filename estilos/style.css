@@ -40,13 +40,23 @@ iframe#tela{
 }
 
 section#redes-sociais{
-    text-align: right;
+    text-align: right; /*  Serve para centralizar 
+    ou colocar na esquerda ou na direita*/
 }
 
 section#redes-sociais img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px black; /* */
+    box-sizing: border-box; /* */
 
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white; /* Cor da borda*/
+    transform: translate(-7px,-7px); /* faz o efeito de subir a figura */
+    box-shadow: 5px,5px,10px black; /* sombra da figura */
+    transition:transform .5s ; /*e o tempo que faz a transformaçao da figura
+    ou seja o tempo que levra par subir a figura */
 }
