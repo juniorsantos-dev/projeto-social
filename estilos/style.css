@@ -48,8 +48,10 @@ section#redes-sociais img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px black; /* */
-    box-sizing: border-box; /* */
+    box-shadow: 2px 2px 5px black; /* borda*/
+    box-sizing: border-box; /* box-sizing: border-box; que 
+    indica que o tamanho agora levará em conta até a borda -- 
+    ou seja, o width será a soma do conteúdo com a borda e o padding.*/
 
 }
 
