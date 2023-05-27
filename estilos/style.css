@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -36,7 +41,7 @@ iframe#tela{
     top: 80px;
     left: 22px;
     width: 266px;
-    height: 489px;
+    height: 469px;
 }
 
 section#redes-sociais{
